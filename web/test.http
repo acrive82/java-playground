@@ -1,0 +1,19 @@
+GET http://127.0.0.1:8080/order
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8080/order
+Accept: application/json
+Content-Type: application/json
+
+{
+  "product": "product",
+  "quantity": 92,
+  "price": 100,
+  "creationDate": "2023-07-23T12:16:42.360857+02:00"
+}
+
+
+###
+
